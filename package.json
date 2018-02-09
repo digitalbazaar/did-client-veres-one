@@ -1,0 +1,30 @@
+{
+  "name": "did-client-veres-one",
+  "version": "0.1.0-0",
+  "description": "A Decentralized Identifier client library for Veres One",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veres-one/did-client-veres-one.git"
+  },
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "http://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/veres-one/did-client-veres-one/issues"
+  },
+  "homepage": "https://github.com/veres-one/did-client-veres-one",
+  "dependencies": {
+    "did-veres-one": "veres-one/did-veres-one#implementation",
+    "jsonld": "^0.5.18",
+    "node-forge": "^0.7.1",
+    "r2": "^2.0.0",
+    "semver": "5.5.0",
+    "uuid": "3.2.1"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}
