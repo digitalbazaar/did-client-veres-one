@@ -19,7 +19,7 @@
   "dependencies": {
     "did-veres-one": "veres-one/did-veres-one#implementation",
     "fast-json-patch": "^2.0.6",
-    "jsonld": "^0.5.18",
+    "jsonld": "^1.0.1",
     "node-forge": "^0.7.1",
     "r2": "^2.0.0",
     "semver": "5.5.0",
