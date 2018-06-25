@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/veres-one/did-client-veres-one",
   "dependencies": {
-    "did-veres-one": "veres-one/did-veres-one#master",
+    "did-veres-one": "veres-one/did-veres-one#update-terminology",
     "fast-json-patch": "^2.0.6",
     "jsonld": "^1.0.1",
     "node-forge": "^0.7.1",
