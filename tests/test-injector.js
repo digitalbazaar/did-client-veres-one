@@ -1,6 +1,8 @@
 'use strict';
 
-const contexts = require('../lib/contexts')
+const contexts = {
+  'https://w3id.org/veres-one/v1': require('veres-one-context')
+};
 const Injector = require('../lib/Injector');
 const injector = new Injector();
 

@@ -26,7 +26,7 @@
     "axios": "^0.18.0",
     "http-signature": "^1.2.0",
     "jsonld": "^1.1.0",
-    "web-ledger-client": "veres-one/web-ledger-client#generalize"
+    "web-ledger-client": "digitalbazaar/web-ledger-client#generalize"
   },
   "engines": {
     "node": ">=8.9.0"
@@ -34,7 +34,9 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "dirty-chai": "^2.0.1",
-    "nock": "^10.0.0"
+    "mocha": "^5.2.0",
+    "nock": "^10.0.0",
+    "veres-one-context": "^4.0.0"
   },
   "eslintConfig": {
     "env": {

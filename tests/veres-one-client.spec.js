@@ -21,7 +21,7 @@ describe('web ledger client', () => {
   let client;
 
   beforeEach(() => {
-    client = VeresOneClient.client({
+    client = new VeresOneClient({
       injector, mode: 'test', hostname: TEST_HOSTNAME
     });
   });
